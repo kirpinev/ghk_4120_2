@@ -52,19 +52,19 @@ export const App = () => {
 
   const clickSub = () => {
     window.gtag("event", "sub_get_click", {
-      variant_name: "second_reactivation_1",
+      variant_name: "second_reactivation_2",
     });
   };
 
   const clickPrize = () => {
     window.gtag("event", "prize_get_click", {
-      variant_name: "second_reactivation_1",
+      variant_name: "second_reactivation_2",
     });
   };
 
   const clickInteraction = () => {
     window.gtag("event", "game_interaction", {
-      variant_name: "second_reactivation_1",
+      variant_name: "second_reactivation_2",
     });
   };
 
